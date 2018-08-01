@@ -1,0 +1,6 @@
+:
+
+case $# in
+  0) cat | sed 's/^/    #=> /';;
+  *) echo "$*" | sed 's/^/    #=> /';;
+esac
