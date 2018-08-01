@@ -4,6 +4,9 @@
 #
 # Purpose:
 #	Script to indent command output.
+#
+# History:
+#	180801	PR	Initial
 
 case $# in
   0) cat | sed 's/^/    #=> /';;
