@@ -4,6 +4,9 @@
 #
 # Purpose:
 #	Script to indent command output.
+#
+PROG=${0##*/}
+set -u
 
 case $# in
   0) cat | sed 's/^/    #=> /';;
