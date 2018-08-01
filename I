@@ -1,4 +1,9 @@
 :
+# Name:
+#	I.sh
+#
+# Purpose:
+#	Script to indent command output.
 
 case $# in
   0) cat | sed 's/^/    #=> /';;
